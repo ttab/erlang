@@ -25,4 +25,5 @@ default['erlang']['source']['build_flags'] = ''
 default['erlang']['source']['cflags'] = ''
 
 default['erlang']['esl']['version'] = nil
+default['erlang']['esl']['package'] = 'esl-erlang'
 default['erlang']['esl']['lsb_codename'] = node['lsb'] ? node['lsb']['codename'] : 'no_lsb'

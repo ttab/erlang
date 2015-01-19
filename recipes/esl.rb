@@ -33,7 +33,7 @@ when 'debian'
     action :add
   end
 
-  package 'esl-erlang' do
+  package node['erlang']['esl']['package'] do
     version node['erlang']['esl']['version'] if node['erlang']['esl']['version']
   end
 
